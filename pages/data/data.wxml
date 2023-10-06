@@ -1,0 +1,38 @@
+<!--pages/data/data.wxml-->
+<!-- <text>pages/data/data.wxml</text> -->
+<view>
+  my name is : {{name}}
+</view>
+
+<view class="block" bind:tap="OnClick" data-name="山大王" style="background-color:{{color}} ;">
+  Click me !!
+</view>
+
+<view>
+---------------
+</view>
+<view class="out">
+<input type="text" placeholder="请输入用户名" class="textArea"/>
+<input type="password" placeholder="请输入密码" class="textArea"/>
+
+<button class="textButton" size="default" type="primary" bind:tap="OnClick" data-name="xxx" data-s="sss">
+提交
+</button>
+</view>
+
+<view class="zhanwei">
+===============
+</view>
+<view class="all">
+  <view class="list">
+  <view class="row" wx:for="{{4}}">
+    <view class="text"> 测试文字 </view>
+    <view class="close"> 
+     <icon type="clear" size="40rpx" color="rgb(200, 200, 200)"/>
+    </view> 
+  </view>
+</view>
+
+</view>
+
+

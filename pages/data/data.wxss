@@ -1,0 +1,61 @@
+/* pages/data/data.wxss */
+.block{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(231, 213, 213);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.out{
+  background-color: rgb(241, 241, 241);
+  height: 300rpx;
+  padding:20rpx;
+  margin:30rpx;
+  border-radius: 15rpx;
+  box-shadow:0 15rpx 40rpx rgba(0, 0, 0, 0.5);
+
+}
+
+
+.out .textArea{
+  border:1rpx solid rgb(211, 211, 211);
+  border-radius: 10rpx;
+  background-color:rgb(235, 234, 233);
+  margin: 20rpx;
+  padding:10rpx;
+}
+
+.out .textButton{
+  width: 250rpx;
+  position: relative;
+  top: 10rpx;
+}
+
+.all .list{
+  margin: 50rpx;
+  padding: 0 30rpx 20rpx;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10rpx;
+  overflow: hidden;
+  
+}
+
+.zhanwei{
+  background-color: crimson;
+}
+
+.all .list .row{
+  margin-top:20rpx ;
+  border-bottom: 1rpx solid rgb(131, 130, 130);
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  font-size: 40rpx;
+  
+}
+
+.all{
+  /* background-color: cyan; */
+} 

@@ -1,0 +1,9 @@
+<image src="http://192.168.1.132/images/F.jpg" mode="aspectFill" show-menu-by-longpress/>
+<image src="http://192.168.1.132/images/G.jpg" mode="aspectFill"/>
+<image src="http://192.168.1.132/images/L.jpg" mode="aspectFill"/>
+
+<navigator url="/pages/index/index" open-type="redirect">
+<view class="toIndex">
+  <text class="font">返回首页</text>
+</view>
+</navigator>

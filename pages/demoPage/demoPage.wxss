@@ -1,0 +1,12 @@
+.toIndex{
+  width: auto;
+  height: 10px;
+  /* background-color: green; */
+  text-align: center;
+  
+}
+
+.toIndex .font{
+  color: pink;
+
+}

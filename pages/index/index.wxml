@@ -1,0 +1,40 @@
+<view 
+  class="box" 
+  hover-class="boxhover"
+>
+西巴
+  <view class="inner">
+  西巴——1
+  </view>
+</view>
+
+<text>__1__</text>
+<text
+user-select
+>__2__</text>
+<text decode> &lt; __3__</text>
+<icon type="success"></icon>
+<view class="v">
+==================
+</view>
+<scroll-view class="father_list" scroll-x>
+  <view class="list">1</view>
+  <view class="list">2</view>
+  <view class="list">3</view>
+  <view class="list">4</view>
+  <view class="list">5</view>
+  <view class="list">6</view>
+  <view class="list">7
+    <root-portal>
+      <view class="gg"></view>
+    </root-portal>
+  </view>
+  <view class="list">8</view>
+</scroll-view>
+
+<view class="out">
+  <view class="box1"></view>
+  <view class="box2">
+    <view class="mask"></view>
+  </view>
+</view>

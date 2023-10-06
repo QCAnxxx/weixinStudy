@@ -1,0 +1,25 @@
+.box{
+  width: 375rpx;
+  height: 375rpx;
+  background-color: red;
+}
+.boxhover{
+  background-color: green;
+}
+
+.father_list{
+  background-color: grey;
+  height: 200rpx;
+  white-space: nowrap;
+
+}
+.father_list .list{
+  height: 200rpx;
+  width: 200rpx;
+  margin-right: 10rpx;
+  background-color: indianred;
+  display: inline-block;
+}
+.father_list .list:last-child{
+  margin-right: 0;
+}
